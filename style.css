@@ -170,7 +170,9 @@ footer .social h2{
     border-radius: 1rem;
 }
 .form-box h4{
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+    font-size: 1.5rem;
 }
 
 .form-box label{
@@ -368,7 +370,9 @@ footer .social h2{
     border-radius: 1rem;
 }
 .form-box h4{
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+    font-size: 1.5rem;
 }
 
 .form-box label{
