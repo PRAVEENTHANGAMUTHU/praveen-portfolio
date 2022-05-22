@@ -338,13 +338,13 @@ footer .social h2{
 
 
 .skills img{
-    width: 64vw;
-    height: 42vh;
+    width: 60vw;
+    height: 40vh;
     background-color: var(--text-color);
     border-radius: 0.5rem;
     padding: 3rem;
     margin-bottom: 1rem;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 
 .form-box{
