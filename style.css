@@ -335,16 +335,16 @@ footer .social h2{
     margin-bottom: 0.5rem;
 }
 
-.skills{
-    margin-left: 25%;
-}
+
 
 .skills img{
-    width: 44vw;
-    height: 34vh;
+    width: 64vw;
+    height: 44vh;
     background-color: var(--text-color);
     border-radius: 0.5rem;
     padding: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 15%;
 }
 
 .form-box{
