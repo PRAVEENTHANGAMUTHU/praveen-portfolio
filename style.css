@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=Lora:ital,wght@1,700&family=Macondo&display=swap');
+
+:root{
+    --background-color: #383d46;
+    --footer-color: #575757;
+    --text-color: rgb(173, 173, 173);
+    --main-text-color:rgb(197, 196, 196);
+    --form-color:#202938;
+    --header-color: rgb(37, 37, 37);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width:600px) {
+    .body{
+    font-family: 'Lora', serif;
+    background-color: var(--background-color);
+}
+
+.name h3{
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-weight: 900;
+    margin-left: 1rem;
+    color: var(--text-color);
+    
+}
+
+.name h3:hover{
+     text-shadow: 6px 6px 6px;
+}
+.logo img{
+    width: 8rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+header{
+    padding-bottom: 1rem;
+    background-color: var(--footer-color);
+    padding-top: 1rem;
+    position: sticky;
+    top: 0;
+
+}
+
+header div{
+    display: inline-block;
+}
+
+.contents ul li{
+    display: inline-block;
+    align-items: right;
+    
+}
+
+.contents ul li a{
+   text-decoration: none;
+   color: var(--text-color);
+   margin-right: 1rem;
+   font-family: 'Lora', serif;
+   font-size: 18px;
+   
+}
+
+.contents ul li a:hover{
+    color: rgb(224, 223, 223);
+}
+
+.contents{
+    text-align: right;
+    float: right;
+}
+
+main{
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+    font-family: 'Lora', serif;
+    padding-top: 7%;
+    padding-bottom: 7%;
+
+}
+.main-name{
+    color: white;
+}
+
+.main-name:hover{
+    text-shadow: 6px 6px 6px;
+}
+.top{
+    text-align: center;
+    align-items: center;
+}
+.abt-port {
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(121, 119, 119);
+    
+}
+.projects{
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.projects div{
+    margin-right: 2rem;
+}
+.project-list{
+     margin-top: 2rem;
+     text-align: center;
+     
+}
+.project-list section img{
+    width: 20vw;
+    height: 27vh;
+    border-radius: 0.5rem;
+}
+.project-list section a{
+    color: var(--text-color);
+}
+footer{
+    text-align: center;
+    background-color: var(--footer-color);
+    color: var(--main-text-color);
+    padding: 2rem;
+    font-family: 'Lora', serif;
+}
+
+footer .social a img{
+    width: 32px;
+    margin-bottom: 0.5rem;
+}
+
+footer .social h2{
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 0.5rem;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 5%;
+    row-gap: 2rem;
+}
+
+.skills img{
+    width: 16vw;
+    height: 27vh;
+    background-color: var(--text-color);
+    margin-right: 5rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.form-box{
+    text-align: center;
+    background-color: var(--form-color);
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+.form-box h4{
+    margin-bottom: 1rem;
+}
+
+.form-box label{
+    display: block;
+    margin-bottom: 0.5rem;  
+}
+
+.form-box input{
+    width: 70%;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+}
+#your-Message{
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+}
+.form-box button{
+    margin-top: 0.5rem;
+    background-color: var(--footer-color);
+    color: var(--main-text-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.form-box button:hover{
+    background-color: var(--header-color);
+}
+.aboutme {
+    margin-left: 5%;
+    margin-right:5%;
+    padding: 10%;
+}
+.aboutme h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.aboutme p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.aboutme p strong{
+    color: #e2e6f0;
+}
+}
+
+@media (max-width:600px) {
+.body{
+    font-family: 'Lora', serif;
+    background-color: var(--background-color);
+}
+
+.name h3{
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-weight: 900;
+    text-align: center;
+    color: var(--text-color);
+    
+}
+
+.name h3:hover{
+     text-shadow: 6px 6px 6px;
+}
+.logo img{
+    width: 8rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+header{
+    padding: 3rem;
+    background-color: var(--footer-color);
+    position: sticky;
+    top: 0;
+}
+
+
+.contents ul li{
+    list-style: none;
+    align-items: right;  
+}
+
+.contents ul li a{  
+   color: var(--text-color);
+   margin-right: 1rem;
+   font-family: 'Lora', serif;
+   font-size: 18px;
+   
+}
+
+
+.contents ul li a:hover{
+    color: rgb(224, 223, 223);
+}
+
+.contents{
+    text-align: center;
+    
+}
+
+main{
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+    font-family: 'Lora', serif;
+    padding-top: 7%;
+    padding-bottom: 7%;
+
+}
+.main-name{
+    color: white;
+}
+
+.main-name:hover{
+    text-shadow: 6px 6px 6px;
+}
+.top{
+    text-align: center;
+    align-items: center;
+}
+.abt-port {
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(121, 119, 119);
+    
+}
+.projects{
+    margin-left: 2rem;
+}
+.projects div{
+    margin-right: 2rem;
+}
+.project-list{
+     margin-top: 2rem;
+     text-align: center;
+     
+}
+.project-list section img{
+    width: 60vw;
+    height: 30vh;
+    border-radius: 0.5rem;
+}
+.project-list section a{
+    color: var(--text-color);
+}
+footer{
+    text-align: center;
+    background-color: var(--footer-color);
+    color: var(--main-text-color);
+    padding: 2rem;
+    font-family: 'Lora', serif;
+}
+
+footer .social a img{
+    width: 32px;
+    margin-bottom: 0.5rem;
+}
+
+footer .social h2{
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 0.5rem;
+}
+
+.skills{
+    margin-left: 25%;
+}
+
+.skills img{
+    width: 44vw;
+    height: 34vh;
+    background-color: var(--text-color);
+    border-radius: 0.5rem;
+    padding: 3rem;
+}
+
+.form-box{
+    text-align: center;
+    background-color: var(--form-color);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+.form-box h4{
+    margin-bottom: 1rem;
+}
+
+.form-box label{
+    display: block;
+    margin-bottom: 0.5rem;  
+}
+
+.form-box input{
+    width: 70%;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+}
+#your-Message{
+    padding-bottom: 5rem;
+    padding-top: 1rem;
+}
+.form-box button{
+    margin-top: 0.5rem;
+    background-color: var(--footer-color);
+    color: var(--main-text-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.form-box button:hover{
+    background-color: var(--header-color);
+}
+.aboutme {
+    margin-left: 5%;
+    margin-right:5%;
+    padding: 10%;
+}
+.aboutme h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.aboutme p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.aboutme p strong{
+    color: #e2e6f0;
+}
+}
