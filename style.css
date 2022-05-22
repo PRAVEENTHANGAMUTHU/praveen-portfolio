@@ -218,6 +218,12 @@ footer .social h2{
 .aboutme p strong{
     color: #e2e6f0;
 }
+footer h3 span{
+    color: #202938;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px;
+    font-size: 1.5rem;
+}
 }
 
 @media (max-width:600px) {
@@ -414,4 +420,7 @@ footer .social h2{
 
 footer h3 span{
     color: #202938;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px;
+    font-size: 1.5rem;
 }
