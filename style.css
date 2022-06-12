@@ -71,6 +71,8 @@ header div{
 
 .contents ul li a:hover{
     color: rgb(224, 223, 223);
+    font-size: 20px;
+    transition: 800ms;
 }
 
 .contents{
@@ -82,7 +84,7 @@ main{
     background-color: var(--background-color);
     color: var(--main-text-color);
     font-family: 'Lora', serif;
-    padding-top: 8%;
+    padding-top: 5%;
     padding-bottom: 8%;
 
 }
